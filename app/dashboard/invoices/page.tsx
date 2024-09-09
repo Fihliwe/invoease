@@ -1,13 +1,13 @@
 'use client';
 import React from "react";
 import { useState } from "react";
-import Footer from "@/components/invoice Components/footer";
-import Notes from "@/components/invoice Components/notes";
-import Header from "@/components/invoice Components/header";
-import Details from "@/components/invoice Components/Details";
-import ClientsDetails from "@/components/invoice Components/ClientDetails";
-import Date from "@/components/invoice Components/Date";
-import Table from "@/components/invoice Components/table";
+import Footer from "@/components/InvoiceComponents/footer";
+import Notes from "@/components/InvoiceComponents/notes";
+import Header from "@/components/InvoiceComponents/header";
+import Details from "@/components/InvoiceComponents/Details";
+import ClientsDetails from "@/components/InvoiceComponents/ClientDetails";
+import Date from "@/components/InvoiceComponents/Date";
+import Table from "@/components/InvoiceComponents/table";
 
 
 const { InvoiceNumber } = require('invoice-number');
@@ -39,7 +39,7 @@ export default function InvoicesPage() {
 
     
     return (
-      <>
+      <> {/** invoice page */}
       <main className="m-5 p-5 xl:m-w-4xl xl:mx-auto bg-white rounded shadow flex min-h-vh">
         {showInvoice ? <div>
           <Header/>

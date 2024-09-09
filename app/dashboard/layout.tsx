@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import Sidebar from '@/components/Sidebar';
+import Sidebar from '@/components/DashboardSidebar/Sidebar';
 import DashboardPage from './page';
 import InvoicesPage from './invoices/page';
 import CustomersPage from './customers/page';
