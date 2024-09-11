@@ -2,7 +2,7 @@
 export default function Pricing() {
   return (
     <div>
-      <section className="bg-gray-50 py-16">
+      <section id="pricing" className="bg-gray-50 py-16">
         <div className="container mx-auto">
           <h1 className="text-5xl font-bold text-center mb-12">Pricing</h1>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

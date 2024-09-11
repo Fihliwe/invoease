@@ -1,9 +1,12 @@
+import About from "./about/page";
+import Contact from "./contact/page";
+import Pricing from "./pricing/page";
 
 
 export default function Home() {
   return (
     <div>
-      <section className="bg-gray-100 py-16">
+      <section id="home" className="bg-gray-100 py-16">
         <div className="container mx-auto text-center">
           <h1 className="text-5xl font-bold mb-8">Welcome to InvoEase</h1>
           <p className="text-xl mb-6">Manage your invoices easily and efficiently with our platform.</p>
@@ -33,7 +36,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-gray-100 py-16">
+      <section  className="bg-gray-100 py-16">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">Testimonials</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -48,6 +51,21 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/** for navbar to scroll to about section */}
+      <section id="about">
+        <About/>
+      </section>
+
+      {/** for navbar to scroll to the pricing section */}
+      <section id="pricing">
+        <Pricing/>
+      </section>
+
+      {/** for navbar to scroll to contact section */}
+      <section id="contact">
+        <Contact/>
+      </section>
+      
     </div>
   );
 }

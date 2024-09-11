@@ -36,7 +36,7 @@ const Logo = () => {
     return (
       <>
         <Link href="/" style={{ display: showButton ? "none" : "block" }}>
-          <h1 className="text-white text-bold">InvoEase</h1>
+          <h1 className="text-white text-bold ">InvoEase</h1>
         </Link>
         <div
           style={{

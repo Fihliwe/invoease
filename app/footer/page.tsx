@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-      <footer className="bg-black py-6 mt-16">
+      <footer id="footer" className="bg-black py-6 mt-16 ">
         <div className="container mx-auto text-center">
           <div className="text-white mb-4">
             <p>&copy; {new Date().getFullYear()} InvoEase. All rights reserved.</p>
