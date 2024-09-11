@@ -5,3 +5,7 @@
 html {
     scroll-behavior: smooth;
 }
+
+#id {
+    background-image: url(/images/shuvam-mitra-xSJ0it-vfO8-unsplash.jpg);
+}

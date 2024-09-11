@@ -1,3 +1,4 @@
+import { url } from "inspector";
 import About from "./about/page";
 import Contact from "./contact/page";
 import Pricing from "./pricing/page";
@@ -6,17 +7,19 @@ import Pricing from "./pricing/page";
 export default function Home() {
   return (
     <div>
-      <section id="home" className="bg-gray-100 py-16">
-        <div className="container mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-8">Welcome to InvoEase</h1>
-          <p className="text-xl mb-6">Manage your invoices easily and efficiently with our platform.</p>
-          <a href="/pricing" className="bg-black text-white px-6 py-3 rounded-lg  transition">
-            Get Started
-          </a>
-        </div>
+      <section id="home" 
+        className="bg-gray-100 py-16 bg-cover bg center"
+        style={{backgroundImage: 'url("/images/shuvam-mitra-xSJ0it-vfO8-unsplash.jpg")'}}>
+          <div className="container mx-auto text-center">
+            <h1 className="text-5xl font-bold mb-8">Welcome to InvoEase</h1>
+            <p className="text-xl mb-6">Manage your invoices easily and efficiently with our platform.</p>
+            <a href="/#features" className="bg-black text-white px-6 py-3 rounded-lg  transition">
+              Get Started
+            </a>
+          </div>
       </section>
 
-      <section className="py-16">
+      <section id="features" className="py-16">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -27,7 +30,7 @@ export default function Home() {
             <div className="p-6 bg-white shadow-lg rounded-lg">
               <h3 className="text-xl font-bold mb-4">Track Payments</h3>
               <p>Easily monitor which invoices have been paid and which are outstanding.</p>
-            </div>
+            </div> 
             <div className="p-6 bg-white shadow-lg rounded-lg">
               <h3 className="text-xl font-bold mb-4">Manage Clients</h3>
               <p>Store all your client information in one place for easier management.</p>
