@@ -2,11 +2,13 @@ import { url } from "inspector";
 import About from "./about/page";
 import Contact from "./contact/page";
 import Pricing from "./pricing/page";
+import Navigation from "@/components/HomePageNav/page";
 
 
 export default function Home() {
   return (
     <div>
+      <Navigation/>
       <section id="home" 
         className="bg-gray-100 py-16 bg-cover bg center"
         style={{backgroundImage: 'url("/images/shuvam-mitra-xSJ0it-vfO8-unsplash.jpg")'}}>
