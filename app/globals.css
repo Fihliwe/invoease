@@ -9,3 +9,23 @@ html {
 #id {
     background-image: url(/images/shuvam-mitra-xSJ0it-vfO8-unsplash.jpg);
 }
+
+#custom-shape-divider-top-1726401947 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+#custom-shape-divider-top-1726401947 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 89px;
+}
+
+#custom-shape-divider-top-1726401947 #shape-fill {
+    fill: #000000;
+}

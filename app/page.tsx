@@ -10,8 +10,7 @@ export default function Home() {
     <div>
       <Navigation/>
       <section id="home" 
-        className="bg-gray-100 py-16 bg-cover bg center"
-        style={{backgroundImage: 'url("/images/shuvam-mitra-xSJ0it-vfO8-unsplash.jpg")'}}>
+        className="bg-gray-100 py-16 bg-cover bg center">
           <div className="container mx-auto text-center">
             <h1 className="text-5xl font-bold mb-8">Welcome to InvoEase</h1>
             <p className="text-xl mb-6">Manage your invoices easily and efficiently with our platform.</p>
@@ -20,6 +19,7 @@ export default function Home() {
             </a>
           </div>
       </section>
+      
 
       <section id="features" className="py-16">
         <div className="container mx-auto">
