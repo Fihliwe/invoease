@@ -6,6 +6,24 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+#features {
+    background-color: grey;
+}
+
+
+#about {
+    background-color: grey;
+}
+
+#contact {
+    background-color: grey;
+}
+
+
+
+
 #id {
     background-image: url(/images/shuvam-mitra-xSJ0it-vfO8-unsplash.jpg);
 }
