@@ -6,10 +6,10 @@ export default function Footer() {
             <p>&copy; {new Date().getFullYear()} InvoEase. All rights reserved.</p>
           </div>
           <div className="flex justify-center space-x-6">
-            <a href="/" className="text-gray-400 hover:text-white">Home</a>
-            <a href="/about" className="text-gray-400 hover:text-white">About</a>
-            <a href="/pricing" className="text-gray-400 hover:text-white">Pricing</a>
-            <a href="/contact" className="text-gray-400 hover:text-white">Contact</a>
+            <a href="#" className="text-gray-400 hover:text-white">Home</a>
+            <a href="#about" className="text-gray-400 hover:text-white">About</a>
+            <a href="#pricing" className="text-gray-400 hover:text-white">Pricing</a>
+            <a href="#contact" className="text-gray-400 hover:text-white">Contact</a>
           </div>
           <div className="mt-4">
             <a href="#" className="text-gray-400 hover:text-white mx-2">Privacy Policy</a>|
