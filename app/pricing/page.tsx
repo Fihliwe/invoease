@@ -6,17 +6,17 @@ export default function Pricing() {
         <div className="container mx-auto">
           <h1 className="text-5xl font-bold text-center mb-12">Pricing</h1>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 shadow-lg rounded-lg">
+            <div className="bg-black text-white p-8 shadow-lg rounded-lg">
               <h2 className="text-3xl font-bold mb-4">Basic Plan</h2>
               <p className="text-2xl mb-6">$9/month</p>
               <ul className="list-disc pl-6 mb-6">
                 <li>Manage up to 50 invoices</li>
                 <li>Email support</li>
               </ul>
-              <a href="/contact" className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">Get Started</a>
+              <a href="/contact" className="bg-white text-black px-6 py-3 rounded-lg hover:bg-gray-400 transition">Get Started</a>
             </div>
 
-            <div className="bg-white p-8 shadow-lg rounded-lg">
+            <div className="bg-black text-white p-8 shadow-lg rounded-lg">
               <h2 className="text-3xl font-bold mb-4">Pro Plan</h2>
               <p className="text-2xl mb-6">$29/month</p>
               <ul className="list-disc pl-6 mb-6">
@@ -24,10 +24,10 @@ export default function Pricing() {
                 <li>Priority support</li>
                 <li>Custom branding</li>
               </ul>
-              <a href="/contact" className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">Get Started</a>
+              <a href="/contact" className="bg-white text-black px-6 py-3 rounded-lg hover:bg-gray-400 transition">Get Started</a>
             </div>
 
-            <div className="bg-white p-8 shadow-lg rounded-lg">
+            <div className="bg-black text-white p-8 shadow-lg rounded-lg">
               <h2 className="text-3xl font-bold mb-4">Enterprise</h2>
               <p className="text-2xl mb-6">Contact us</p>
               <ul className="list-disc pl-6 mb-6">
@@ -35,7 +35,7 @@ export default function Pricing() {
                 <li>Dedicated account manager</li>
                 <li>Custom integrations</li>
               </ul>
-              <a href="/contact" className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">Contact Us</a>
+              <a href="/contact" className="bg-white text-black px-6 py-3 rounded-lg hover:bg-gray-400 transition">Contact Us</a>
             </div>
           </div>
         </div>

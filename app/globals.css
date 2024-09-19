@@ -7,18 +7,21 @@ html {
 }
 
 
-
+body {
+    background-color: white;
+}
 #features {
-    background-color: grey;
+    background-color: black;
+    
 }
 
 
 #about {
-    background-color: grey;
+    background-color: black;
 }
 
 #contact {
-    background-color: grey;
+    background-color: black;
 }
 
 

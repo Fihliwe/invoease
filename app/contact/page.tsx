@@ -56,11 +56,11 @@ export default function Contact() {
                 value={formData.message}
                 onChange={handleChange}
                 className="w-full p-3 border border-gray-300 rounded"
-                rows="5"
+                rows={5}
                 required
               ></textarea>
             </div>
-            <button type="submit" className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+            <button type="submit" className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-400 transition">
               Send Message
             </button>
           </form>
