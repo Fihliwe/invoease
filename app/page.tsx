@@ -4,7 +4,7 @@ import Contact from "./contact/page";
 import Pricing from "./pricing/page";
 import Navigation from "@/components/HomePageNav/page";
 import HomeImage from "@/images/HomeImage.png"
-
+import Footer from "@/app/footer/page";
 
 
 export default function Home() {
@@ -106,6 +106,7 @@ export default function Home() {
             <Contact />
           </div>
         </section>
+        <Footer />
       </div>
   );
 }
