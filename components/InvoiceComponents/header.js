@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import handlePrint from "@/Buttons/handlePrint";
-import Modal from 'react-modal';
+
 
 export default function Header() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
