@@ -2,8 +2,8 @@ import InvoicesPage from "./invoices/page";
 
 export default function DashboardPage() {
   return (
-    <div>
+    <main className=''>
       <InvoicesPage />
-    </div>
+    </main>
   );
 }
