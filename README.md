@@ -1,4 +1,4 @@
-# Invoice Management Platform
+# INVOEASE
 
 A modern, user-friendly platform for managing invoices, clients, and products, built with the latest version of Next.js, MongoDB, and JavaScript. This platform allows users to create, store, and manage invoices efficiently with additional features for product management, client storage, and user authentication.
 
